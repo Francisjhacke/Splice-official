@@ -1,0 +1,16 @@
+Contact --> philipperacette@outlook.com
+	--> splice.ca@gmail.com
+	--> gamegear376@gmail.com
+
+Separate pages (CMS)
+
+- Home Page
+	- Header description
+	- Show upcoming gigs
+	- Recent Song Releases
+- About
+- Contact
+- Gigography
+- Possible merch/ecommerce (Show available merch)
+- Gallery
+- Bandcamp API
