@@ -4,38 +4,60 @@ description = "Default layout"
 <html>
     <head>
         <meta charset="utf-8">
-        <title>October CMS - {{ this.page.title }}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>SPLICE - {{ this.page.title }}</title>
+
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
-        <meta name="author" content="OctoberCMS">
+        <meta name="author" content="Francis Hackenberger">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="generator" content="OctoberCMS">
+        <meta name="generator" content="Francis Hackenberger">
+
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+
+        <!-- Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+        <link href="{{ 'assets/fonts/font-awesome.min.css'|theme }}" rel="stylesheet" type="text/css">
+
+        <!-- Stylesheets -->
         <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
         <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
         {% styles %}
     </head>
-    <body>
+    <body class="header-collapse">
+        <div id="site-content">
 
-        <!-- Header -->
-        <header id="layout-header">
-            {% partial 'site/header' %}
-        </header>
+            <!-- Header -->
+            <header id="site-header">
+                {% partial 'site/header' %}
+            </header>
 
-        <!-- Content -->
-        <section id="layout-content">
-            {% page %}
-        </section>
+            <!-- Content -->
+            <section>
+                {% page %}
+            </section>
 
-        <!-- Footer -->
-        <footer id="layout-footer">
-            {% partial 'site/footer' %}
-        </footer>
+            <!-- Footer -->
+            <footer id="site-footer">
+                {% partial 'site/footer' %}
+            </footer>
 
+        </div>
+        
         <!-- Scripts -->
         <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
         <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/plugins.js'|theme }}"></script>
+
         {% framework extras %}
         {% scripts %}
 
