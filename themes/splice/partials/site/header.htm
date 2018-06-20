@@ -1,42 +1,19 @@
-<!-- Nav **
-<nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ 'home'|page }}">S P L I C E</a>
-        </div>
-        <div class="collapse navbar-collapse navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <li class="separator hidden-xs"></li>
-                <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-                <li class="{% if this.page.id == 'ajax' %}active{% endif %}"><a href="{{ 'ajax'|page }}">About</a></li>
-                <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a href="{{ 'plugins'|page }}">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
-
-    <div class="container">
-        <a href="{{ 'home'|page }}" id="branding">
-            <!--<img src="dummy/logo.png" alt="Splice Official">-->
-            <h1 class="band-logo">SPLICE</h1>
-            <small class="site-description">Splice</small>
-        </a> <!-- #branding -->
-        
-        <nav class="main-navigation">
-            <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
-            <ul class="menu">
-                <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-                <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-                <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'gallery'|page }}">Gallery</a></li>
-                <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'gigography'|page }}">Gigography</a></li>
-                <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
-            </ul> <!-- .menu -->
-        </nav> <!-- .main-navigation -->
-        <div class="mobile-menu"></div>
-    </div>
+<div class="container">
+    <a href="{{ 'home'|page }}" id="branding">
+        <!--<img src="dummy/logo.png" alt="Splice Official">-->
+        <h1 class="band-logo">SPLICE</h1>
+        <small class="site-description">Splice</small>
+    </a> <!-- #branding -->
+    
+    <nav class="main-navigation">
+        <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+        <ul class="menu">
+            <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+            <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+            <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'gallery'|page }}">Gallery</a></li>
+            <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'gigography'|page }}">Gigography</a></li>
+            <li class="menu-item {% if this.page.id == 'home' %}current-menu-item{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+        </ul> <!-- .menu -->
+    </nav> <!-- .main-navigation -->
+    <div class="mobile-menu"></div>
+</div>
