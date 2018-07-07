@@ -2530,7 +2530,7 @@ body {
   /* line 16, sass/pages/_post.scss */
   .content .featured-image img {
     width: 100%;
-    max-width: 300px; }
+    max-width: 500px; }
 /* line 22, sass/pages/_post.scss */
 .content .leading {
   margin-bottom: 50px;
