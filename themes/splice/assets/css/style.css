@@ -2244,7 +2244,7 @@ body {
       background-size: cover; }
     /* line 19, sass/pages/_homepage.scss */
     .slider .slides .container {
-      padding: 200px 0;
+      padding: 100px 0;
       text-align: center; }
     /* line 24, sass/pages/_homepage.scss */
     .slider .slides .slide-title {
@@ -2278,6 +2278,7 @@ body {
               transition-delay: .6s; }
     /* line 46, sass/pages/_homepage.scss */
     .slider .slides .slide-desc {
+      color: #fff;
       font-size: 30px;
       font-size: 1.875em;
       font-weight: 300;
@@ -2345,7 +2346,7 @@ body {
     /* line 109, sass/pages/_homepage.scss */
     .quote-slider blockquote p {
       font-size: 36px;
-      font-size: 2.25em;
+      font-size: 1.25em;
       color: white;
       font-weight: 300;
       line-height: normal; }
