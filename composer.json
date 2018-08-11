@@ -1,28 +1,16 @@
 {
-    "name": "october/october",
-    "description": "October CMS",
-    "homepage": "http://octobercms.com",
-    "keywords": ["october", "cms", "octobercms", "laravel"],
+    "name": "Splice",
+    "type": "october-theme",
+    "description": "Splice official band website.",
+    "keywords": ["splice", "band", "rock", "music", "concert"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com",
-            "role": "Co-founder"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com",
-            "role": "Co-founder"
+            "name": "Francis Hackenberger",
+            "email": "francisjhackenberger@gmail.com",
+            "role": "Website Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/octobercms/october/issues",
-        "forum": "http://octobercms.com/forum/",
-        "docs": "http://octobercms.com/docs/",
-        "irc": "irc://irc.freenode.net/october",
-        "source": "https://github.com/octobercms/october"
-    },
     "require": {
         "php": ">=7.0",
         "ext-mbstring": "*",

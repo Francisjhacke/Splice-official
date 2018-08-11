@@ -1,19 +1,14 @@
 {
-    "name": "october/demo-theme",
+    "name": "Splice",
     "type": "october-theme",
-    "description": "Demo OctoberCMS theme",
-    "keywords": ["october", "cms", "demo", "theme"],
+    "description": "Splice official band website.",
+    "keywords": ["splice", "band", "rock", "music", "concert"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com",
-            "role": "Co-founder"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com",
-            "role": "Co-founder"
+            "name": "Francis Hackenberger",
+            "email": "francisjhackenberger@gmail.com",
+            "role": "Website Developer"
         }
     ],
     "require": {
