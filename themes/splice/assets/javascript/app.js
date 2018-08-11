@@ -33,13 +33,11 @@
 
 		var eventCarousel = $(".event-carousel");
 		eventCarousel.owlCarousel({
- 
 			autoPlay: 3000, //Set AutoPlay to 3 seconds
-			rewindNav: false,
+			rewindNav: true,
 			items : 2,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3]
-
+			itemsDesktop : [1199,2],
+			itemsDesktopSmall : [979,2]
 		});
 		// Custom Navigation Events
 		$("#event-next").click(function(e){
@@ -115,7 +113,7 @@
 					}  
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "Oshawa, Ontario",
 				}
 			},
 			"autofit" );
@@ -123,8 +121,6 @@
 
 	});
 
-	$(window).ready(function(){
-
-	});
+	$(window).ready(function(){});
 
 })(jQuery, document, window);
